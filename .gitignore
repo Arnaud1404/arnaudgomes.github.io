@@ -1,0 +1,12 @@
+# Dependencies
+/node_modules
+
+# Build outputs
+/dist
+
+# Astro auto-generated files
+.astro/
+
+# Environment variables
+.env
+.env.*

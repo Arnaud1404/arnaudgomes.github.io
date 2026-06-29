@@ -1,0 +1,27 @@
+:root {
+  --background: #1a1a1a;
+  --text: #e0e0e0;
+  --accent: #00ff00;
+  --border: #444;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: monospace;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: var(--accent);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
