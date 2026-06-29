@@ -30,9 +30,9 @@ const otherLangLabel = computed(() => {
 
 const otherLangUrl = computed(() => {
   if (currentLang.value === 'en') {
-    return `/fr${currentPath.value}`;
+    return '/fr';
   }
-  return currentPath.value.replace(/^\/fr/, '') || '/';
+  return '/en';
 });
 </script>
 
